@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>📝 My To-Do List</h1>
+
+        <!-- Add Task Form -->
+        <form class="add-form" id="task-form">
+            <input type="text" id="task-input" placeholder="Enter a new task..." required>
+            <button type="submit" class="btn">Add Task</button>
+        </form>
+
+        <!-- Task Counter -->
+        <div class="task-count">
+            You have <span id="task-count">0</span> tasks
+        </div>
+
+        <!-- Tasks List -->
+        <ul class="task-list" id="task-list">
+            <div class="no-tasks">No tasks yet! Add one above </div>
+        
+        </ul>
+
+        <!-- Clear All Button -->
+        <div class="clear-all">
+            <button class="btn btn-delete" id="clear-all-btn">Clear All Tasks</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
